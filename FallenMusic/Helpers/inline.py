@@ -4,7 +4,7 @@ import config
 from FallenMusic import BOT_USERNAME
 
 close_key = InlineKeyboardMarkup(
-    [[InlineKeyboardButton(text="𝄞 Bağlayır 𝄞", callback_data="close")]]
+    [[InlineKeyboardButton(text="𝄞 Bağlayın 𝄞", callback_data="close")]]
 )
 
 
@@ -34,7 +34,7 @@ pm_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💡 Mənbə", url="https://github.com/RaviVeyi"
+            text="💡 Dəstək", url="https://t.me/RiyaddSupport"
         ),
         InlineKeyboardButton(text=" İnkişaf etdirici ", user_id=config.OWNER_ID),
     ],
@@ -54,7 +54,7 @@ gp_buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💡 Mənbə", url="https://github.com/RaviVeyi"
+            text="💡 Dəstək", url="https://t.me/RiyaddSupport"
         ),
         InlineKeyboardButton(text="☠ İnkişaf etdirici", user_id=config.OWNER_ID),
     ],
