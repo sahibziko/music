@@ -18,8 +18,8 @@ START_IMG = getenv("START_IMG", "https://images.app.goo.gl/hvRp5UsR8j3z2wcB9")
 
 SESSION = getenv("SESSION", None)
 
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Riyaddsupport")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/RiyaddSupport")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/HasbullaMMC")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KrayzenSupport")
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5519651365").split()))
 
